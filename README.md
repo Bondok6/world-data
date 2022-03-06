@@ -1,8 +1,6 @@
-# Space Travelers
+#
 
-> #### A web application for a company that provides commercial and scientific space travel services. The application allows users to book rockets and join selected space missions using real live data from the SpaceX API.
-
-https://user-images.githubusercontent.com/45231276/156411396-0894607b-88a9-4687-99c1-78663e438ebf.mp4
+> ####
 
 ## Built With
 
@@ -13,33 +11,27 @@ https://user-images.githubusercontent.com/45231276/156411396-0894607b-88a9-4687-
 ## Additional Used
 
 - Api
-- KanbanBoard
 - Linters
 - Gitflow
 - npm
 
 ## Live Demo 🌐
 
-### [Space Travelers Link](https://space-travelers.herokuapp.com/)
+### [Project Link]()
 
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
 
-`git clone git@github.com:Leboroz/space-travelers.git `
+`git clone git@github.com:Leboroz/.git `
 
-Then `cd space-travelers`
+Then `cd `
 
 Then `npm install` to install packages
 
 Finally `npm start`
 
 ## Authors
-
-👤 **Leonardo Albornoz**
-
-- GitHub: [@Leboroz](https://github.com/Leboroz)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/leonardo-albornoz-216784198/)
 
 👤 **Kyrillos Hany**
 
