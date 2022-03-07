@@ -1,12 +1,11 @@
 import React from 'react';
-import Continents from '../components/continents/Continents';
+import PropTypes from 'prop-types';
+import Countries from '../components/countries/Countries';
 
-const HomePage = () => {
-  return (
-    <div>
-      <Continents />
-    </div>
-  );
+const HomePage = ({ countries }) => <Countries countries={countries} />;
+
+HomePage.propTypes = {
+  countries: PropTypes.arrayOf.isRequired,
 };
 
 export default HomePage;
