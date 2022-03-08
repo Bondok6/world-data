@@ -10,6 +10,7 @@
   justify-content: space-around;
   align-items: center;
   background-color: var(--bg-light);
+  padding: 1.5rem;
 }
 
 .detailsTop img {
@@ -17,8 +18,10 @@
   width: 200px;
 }
 
-.detailsTop h2 {
+.detailsTop h2,
+.detailsTop h4 {
   text-transform: uppercase;
+  padding: 0.2rem;
 }
 
 .detailsBottom {
@@ -29,11 +32,17 @@
 .detailsBottom li {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: flex-start;
   background-color: var(--bg-dark);
   min-height: 4rem;
+  padding: 0 2rem;
+  gap: 3rem;
 }
 
 .detailsBottom li:nth-child(2n) {
   background-color: var(--bg-dark-2);
+}
+
+.detailsBottom li span:first-child {
+  font-size: 1.2rem;
 }

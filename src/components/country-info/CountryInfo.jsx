@@ -13,7 +13,7 @@ const CountryInfo = () => {
 
   useEffect(() => {
     dispatch(getCountryInfoFromApi(countryName));
-  }, []);
+  }, [countryName, dispatch]);
 
   return (
     <>
@@ -21,11 +21,38 @@ const CountryInfo = () => {
         <section className={classes.detailsSection}>
           <div className={classes.detailsTop}>
             <img src={state[0].flag} alt="flag" />
-            <h2>{countryName}</h2>
+            <div>
+              <h2>{countryName}</h2>
+              <h4>{state[0].region}</h4>
+            </div>
           </div>
           <ul className={classes.detailsBottom}>
-            <li>{state[0].area}</li>
-            <li>{state[0].population}</li>
+            <li>
+              <span> 🎌 Official Name: </span>
+              <span>{state[0].official}</span>
+            </li>
+            <li>
+              <span> 🌆 Capital: </span>
+              <span>{state[0].capital}</span>
+            </li>
+            <li>
+              <span> ⭕ Area: </span>
+              <span>
+                {+state[0].area}
+                &nbsp; km2
+              </span>
+            </li>
+            <li>
+              <span>🤼 Population: </span>
+              <span>
+                {(+state[0].population / 1000000).toFixed(1)}
+                &nbsp; million
+              </span>
+            </li>
+            <li>
+              <span>⏳ Time Zone: </span>
+              <span>{state[0].timezone}</span>
+            </li>
           </ul>
         </section>
       )}
