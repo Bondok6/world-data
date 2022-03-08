@@ -18,7 +18,7 @@ function App() {
       <main>
         <Routes>
           <Route path="/" element={<HomePage countries={state} />} />
-          <Route path="/details" element={<DetailsPage />} />
+          <Route path="/:countryName" element={<DetailsPage />} />
         </Routes>
       </main>
     </>
