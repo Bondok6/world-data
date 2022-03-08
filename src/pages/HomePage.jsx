@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Countries from '../components/countries/countries';
-import MainHeader from '../components/MainHeader';
+import MainHeader from '../components/NavBar/MainHeader';
 
 const HomePage = ({ countries }) => (
   <>

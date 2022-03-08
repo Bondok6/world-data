@@ -1,9 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
-import mic from '../images/mic-icon.svg';
-import settings from '../images/settings-icon.svg';
-import leftArrow from '../images/left-arrow.svg';
+import mic from '../../images/mic-icon.svg';
+import settings from '../../images/settings-icon.svg';
+import leftArrow from '../../images/left-arrow.svg';
 import classes from './MainHeader.module.css';
 
 const MainHeader = ({ title }) => (
