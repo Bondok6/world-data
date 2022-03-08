@@ -17,7 +17,7 @@ const CountryInfo = () => {
 
   return (
     <>
-      {state.length && (
+      {state.length > 0 && (
         <section className={classes.detailsSection}>
           <div className={classes.detailsTop}>
             <img src={state[0].flag} alt="flag" />
