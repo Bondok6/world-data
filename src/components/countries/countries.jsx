@@ -5,7 +5,7 @@ import CountriesList from './CountriesList';
 const Countries = ({ countries }) => {
   console.log(countries);
   return (
-    <ul>
+    <ul className="list-container">
       {countries.map((country) => (
         <CountriesList
           key={country.countryName}

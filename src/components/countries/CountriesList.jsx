@@ -1,10 +1,15 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { Link } from 'react-router-dom';
 
 const CountriesList = ({ name, flag }) => (
-  <li>
-    <h4>{name}</h4>
-    <img src={flag} alt="flag" width="200" />
+  <li className="country">
+    <Link to="ظ">
+      <figure>
+        <img src={flag} alt="flag" />
+        <figcaption>{name}</figcaption>
+      </figure>
+    </Link>
   </li>
 );
 
