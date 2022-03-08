@@ -1,0 +1,39 @@
+.detailsSection {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  color: #fff;
+}
+
+.detailsTop {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: var(--bg-light);
+}
+
+.detailsTop img {
+  display: block;
+  width: 200px;
+}
+
+.detailsTop h2 {
+  text-transform: uppercase;
+}
+
+.detailsBottom {
+  display: flex;
+  flex-direction: column;
+}
+
+.detailsBottom li {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: var(--bg-dark);
+  min-height: 4rem;
+}
+
+.detailsBottom li:nth-child(2n) {
+  background-color: var(--bg-dark-2);
+}

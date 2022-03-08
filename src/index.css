@@ -8,63 +8,12 @@
 
 :root {
   --bg-primary: #35548b;
-  --bg-secondary: #4369b0;
-  --bg-light: #5586e4;
+  --bg-dark: #4063a5;
+  --bg-dark-2: #5478b9;
+  --bg-light: #5f93f1;
 }
 
 body {
   background-color: var(--bg-primary);
   font-family: 'Lato', sans-serif;
-}
-
-.list-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 1rem;
-}
-
-.country {
-  list-style-type: none;
-  width: 250px;
-  background-color: var(--bg-secondary);
-  border-radius: 4px;
-}
-
-.country:nth-child(2n) {
-  background-color: var(--bg-light);
-}
-
-.country a {
-  text-decoration: none;
-  position: relative;
-}
-
-.country figure {
-  display: flex;
-  flex-flow: column;
-  max-width: 220px;
-  margin: 0.5rem auto;
-}
-
-.country img {
-  max-width: 220px;
-  min-height: 140px;
-  filter: grayscale(1);
-  opacity: 0.5;
-  transition: 0.2s;
-}
-
-.country img:hover {
-  filter: grayscale(0);
-  opacity: 1;
-}
-
-.country figcaption {
-  color: #fff;
-  font: italic smaller sans-serif;
-  font-size: 1.4rem;
-  padding-top: 5px;
-  text-align: center;
-  font-family: inherit;
 }

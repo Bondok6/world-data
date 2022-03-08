@@ -9,9 +9,7 @@ const getCountriesFromApi = () => async (dispatch) => {
   data.forEach((country) => {
     countriesData.push({
       countryName: country.name.common,
-      area: country.area,
       flag: country.flags.svg,
-      population: country.population,
     });
   });
 

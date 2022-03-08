@@ -4,15 +4,18 @@ const countriesSlice = createSlice({
   name: 'country',
   initialState: {
     countries: [],
-    country: '',
+    countryInfo: [],
   },
   reducers: {
     getCountries(state, action) {
       state.countries.push(...action.payload);
     },
+    getCountryInfo(state, action) {
+      state.countryInfo.push(...action.payload);
+    },
   },
 });
 
-export const { getCounty, getCountries } = countriesSlice.actions;
+export const { getCountryInfo, getCountries } = countriesSlice.actions;
 
 export default countriesSlice.reducer;

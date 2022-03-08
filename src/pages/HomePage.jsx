@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Countries from '../components/countries/Countries';
+import Countries from '../components/countries/countries';
 
 const HomePage = ({ countries }) => <Countries countries={countries} />;
 
