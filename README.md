@@ -19,17 +19,29 @@
 
 ### [Project Link]()
 
-## Getting Started
+## Get Started
 
-To get a local copy up and running follow these simple example steps.
+### Clone this repository
 
-`git clone git@github.com:Leboroz/.git `
+```bash
+$ git clone
+$ cd
+```
 
-Then `cd `
+### Run project
 
-Then `npm install` to install packages
+```bash
+$ npm install
+$ npm run start
+```
 
-Finally `npm start`
+### Run tests
+
+To run the test just use the following command!
+
+```bash
+$ npm run test
+```
 
 ## Authors
 
