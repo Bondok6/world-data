@@ -23,6 +23,10 @@ https://user-images.githubusercontent.com/45231276/157520294-d9fbce6b-b901-4647-
 
 ### [Project Link](https://bondok-world-data.herokuapp.com/)
 
+## Description (Video)
+
+### [Video Link](https://drive.google.com/file/d/1EsyNpjcGWgJuCmRNq5cEG45Tshy0MrSZ/view?usp=sharing)
+
 ## Get Started
 
 ### Clone this repository
