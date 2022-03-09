@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-// import { Link } from 'react-router-dom';
 import classes from './CountriesList.module.css';
 
 const CountriesList = ({ name, flag }) => (
