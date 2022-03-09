@@ -28,8 +28,8 @@ https://user-images.githubusercontent.com/45231276/157520294-d9fbce6b-b901-4647-
 ### Clone this repository
 
 ```bash
-$ git clone
-$ cd
+$ git clone git@github.com:Bondok6/world-data.git
+$ cd world-data
 ```
 
 ### Run project
