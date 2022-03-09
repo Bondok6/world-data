@@ -1,35 +1,55 @@
-#
+# World Data
 
-> ####
+> ### A web application that provides information about each country in the world. The App is based on an external ([REST COUNTRIES API](https://restcountries.com/)) that allows users to filter these countries by selecting a specific country. And information (details) about this country is displayed, such as population, area, etc.
+
+https://user-images.githubusercontent.com/45231276/157520294-d9fbce6b-b901-4647-b146-df8a4df4ba8a.mp4
 
 ## Built With
 
 - React.js
-- Redux (@redux/toolkit)
-- React-Bootstrap
+- @redux/toolkit
+- react-router-dom
+- [REST COUNTRIES API](https://restcountries.com/)
+- CSS Modules
 
 ## Additional Used
 
-- Api
+- Jest
 - Linters
 - Gitflow
 - npm
 
 ## Live Demo 🌐
 
-### [Project Link]()
+### [Project Link](https://bondok-world-data.herokuapp.com/)
 
-## Getting Started
+## Description (Video)
 
-To get a local copy up and running follow these simple example steps.
+### [Video Link](https://drive.google.com/file/d/1EsyNpjcGWgJuCmRNq5cEG45Tshy0MrSZ/view?usp=sharing)
 
-`git clone git@github.com:Leboroz/.git `
+## Get Started
 
-Then `cd `
+### Clone this repository
 
-Then `npm install` to install packages
+```bash
+$ git clone git@github.com:Bondok6/world-data.git
+$ cd world-data
+```
 
-Finally `npm start`
+### Run project
+
+```bash
+$ npm install
+$ npm run start
+```
+
+### Run tests
+
+To run the test just use the following command!
+
+```bash
+$ npm run test
+```
 
 ## Authors
 
@@ -47,6 +67,11 @@ Feel free to check the [issues page](../../issues/).
 ## Show your support
 
 Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Original design idea by Nelson Sakwa.
+- The design link [Behance](https://www.behance.net/sakwadesignstudio)
 
 ## 📝 License
 
