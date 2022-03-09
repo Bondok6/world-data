@@ -1,6 +1,6 @@
 .country {
   list-style-type: none;
-  width: 240px;
+  width: 200px;
   background-color: var(--bg-dark);
   border-radius: 4px;
 }
@@ -22,8 +22,8 @@
 }
 
 .country img {
-  max-width: 220px;
-  min-height: 140px;
+  max-width: 100%;
+  min-height: 130px;
   filter: grayscale(1);
   opacity: 0.5;
   transition: 0.2s;

@@ -1,0 +1,13 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  color: #fff;
+  font-size: 1.6rem;
+}
+
+.nav img {
+  width: 40px;
+  cursor: pointer;
+  padding: 0 0.5rem;
+}
