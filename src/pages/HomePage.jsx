@@ -11,7 +11,7 @@ const HomePage = ({ countries }) => (
 );
 
 HomePage.propTypes = {
-  countries: PropTypes.arrayOf.isRequired,
+  countries: PropTypes.arrayOf(PropTypes.shape({})).isRequired,
 };
 
 export default HomePage;
