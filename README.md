@@ -1,6 +1,6 @@
 # World Data
 
-> ### A web application that provides information about each country in the world. The App is based on an external ([REST COUNTRIES API](https://restcountries.com/)) that allows users to filter these countries by selecting a specific country. And information (details) about this country is displayed, such as population, area, etc.
+> ### A web application that provides information about each country in the world. The App is based on an external ([REST COUNTRIES API](https://restcountries.com/)) that allows users to filter these countries by selecting a specific country. And information (details) about this country is displayed, such as population, area, etc...
 
 https://user-images.githubusercontent.com/45231276/157520294-d9fbce6b-b901-4647-b146-df8a4df4ba8a.mp4
 
